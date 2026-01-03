@@ -43,6 +43,7 @@ def main():
                 personas.remove(personas[option-1])
                 
             case 4:
-                mostrar_personas()
-                option: int  = int(input(f"seleccione el numero de la persona que quiere editar\n{personas}\n>>>"))
+
+                option: int  = int(input(f"seleccione el numero de la persona que quiere editar\n{mostrar_personas()}\n>>>"))
+                
 main()
