@@ -47,3 +47,4 @@ def main():
                 option: int  = int(input(f"seleccione el numero de la persona que quiere editar\n{mostrar_personas()}\n>>>"))
                 
 main()
+#"a"
